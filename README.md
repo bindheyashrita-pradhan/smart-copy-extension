@@ -1,36 +1,56 @@
-# Smart Copy - Firefox Extension
+# 📋 Smart Copy - Firefox Extension
 
-> Copy Markdown-styled text perfectly into Microsoft Word
+> Copy Markdown-styled text **perfectly** into Microsoft Word with all formatting preserved
 
-![Firefox Extension](https://img.shields.io/badge/Firefox-Extension-orange)
-![Version](https://img.shields.io/badge/version-1.0-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+[![Firefox Extension](https://img.shields.io/badge/Firefox-Extension-orange)](https://addons.mozilla.org/)
+[![Version](https://img.shields.io/badge/version-2.0-blue)](https://github.com/bindheyashrita-pradhan/smart-copy-extension)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-## Features
+---
 
--  Preserves **bold**, *italic*, and `code` formatting
--  Injects Word-compatible inline CSS styles
--  Keyboard shortcut: `Ctrl + Shift + C`
--  Copies both HTML and plain text to clipboard
--  Works on ANY website
--  Visual feedback when copied
+## ✨ What's New in v2.0
 
-## Installation
+| Feature | v1.0 | v2.0 |
+|---------|------|------|
+| Bold / Italic | ✅ | ✅ |
+| Code Blocks | ⚠️ Basic | ✅ Dark Theme |
+| Nested Lists | ⚠️ Basic | ✅ Full Support |
+| Blockquotes | ❌ | ✅ Styled |
+| Headings | ❌ | ✅ Multiple Sizes |
+| Links | ⚠️ Basic | ✅ Blue + Underline |
+| Popup UI | Basic | ✅ Beautiful Design |
+| Clipboard Detection | ❌ | ✅ Auto-Detect |
+| Toast Notifications | ❌ | ✅ Yes |
 
-### Development Mode (Temporary)
-1. Clone this repository
-2. Open Firefox and go to `about:debugging`
-3. Click "This Firefox" → "Load Temporary Add-on"
-4. Select the `manifest.json` file
+### 🎨 New Features in v2.0
 
-### Permanent Installation
-*(Coming soon - will be available on Firefox Add-ons Store)*
+- **Dark Code Blocks** - Beautiful dark theme for code snippets
+- **Nested List Support** - Proper indentation for multi-level lists  
+- **Blockquote Styling** - Left border with gray background
+- **Enhanced Popup UI** - Modern gradient design
+- **Clipboard Detection** - Auto-detects text when popup opens
+- **Visual Feedback** - "Copy is Ready!" toast notification
 
-## Usage
+---
 
-1. Select any text on a webpage
-2. Press `Ctrl + Shift + C`
-3. Paste into Microsoft Word with `Ctrl + V`
-4. Enjoy your perfectly formatted text! 🎉
+## 🚀 Features
 
-## Project Structure
+- ✅ Preserves **bold**, *italics*, and `code` formatting
+- 🎨 Dark code blocks with syntax highlighting style
+- 📋 Copies both HTML and plain text to clipboard
+- ⌨️ Keyboard shortcut: `Ctrl + Shift + C`
+- 🎯 Works on ANY website
+- 🔔 Visual feedback when copied
+- 📱 Beautiful popup interface
+- 🎨 Perfect for copying AI responses
+
+---
+
+## 📦 Installation
+
+### Temporary Installation (Development)
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/bindheyashrita-pradhan/smart-copy-extension.git
