@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "Smart Markdown Copy",
+  "version": "1.0",
+  "description": "Copy styled text perfectly into Microsoft Word",
+  "permissions": [
+    "activeTab",
+    "clipboardWrite",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Smart Copy",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "commands": {
+    "smart-copy": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+C"
+      },
+      "description": "Copy with Word styles"
+    }
+  }
+}

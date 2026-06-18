@@ -1,0 +1,23 @@
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Extension build files (if any)
+*.zip
+*.xpi
+
+# Node modules (if you add any later)
+node_modules/
+package-lock.json
+
+# Temporary files
+*.tmp
+*.log
+
+# Firefox extension files
+*.pem
+*.crx
